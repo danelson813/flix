@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flix"
+version = "0.1.0"
+description = "scraping movies from mvdb"
+authors = ["Dan Nelson <danelson@nwi.net>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+bs4 = "^0.0.2"
+fake-useragent = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
